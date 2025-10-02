@@ -1,7 +1,7 @@
 import random
 from flask import Flask
 from flask import request
-from train_model import load_models, find_best_route
+from train import load_models, find_best_route
 
 app = Flask(__name__)
 
